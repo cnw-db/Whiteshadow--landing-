@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom glow */
+.text-cyan-400 {
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.7);
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 25px rgba(0, 255, 255, 0.3);
+}
+
+body {
+  scroll-behavior: smooth;
+}
